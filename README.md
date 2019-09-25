@@ -1,2 +1,2 @@
 # esDemo
-SpringBoot,Spring Data Elasticsearc,Elasticsearc的整合demo，涵盖了Elasticsearc的通用操作，clone下去可以直接使用
+SpringBoot,Spring Data Elasticsearc,Elasticsearc的整合demo，涵盖了Elasticsearc的通用操作，clone下去可以直接使用，注意：Elasticsearc和Spring Data Elasticsearc版本直接由相应的对应关系，否则启动会报错，我使用的elasticsearch版本为6.6.1
