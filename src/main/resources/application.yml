@@ -1,0 +1,15 @@
+server:
+  port: 8100
+spring:
+  profiles:
+    active: dev #默认为开发环境
+  data:
+    elasticsearch:
+      cluster-name: my-application
+      cluster-nodes: 127.0.0.1:9300
+mybatis:
+  mapper-locations:
+    - classpath:dao/*.xml
+    - classpath*:com/**/mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
